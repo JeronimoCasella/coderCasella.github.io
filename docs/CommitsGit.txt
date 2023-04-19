@@ -1,0 +1,9 @@
+755032283bea5734291a554d94eaae8bae5530ea "terminado responsive de marcas, categorias, footer y header"
+
+9a943ae82fd064cc97ed419dff6f7033880e18d7 "agrego los commits"
+
+729b1d1 "merge de ramas formulario y contacto"
+
+3706262 "Footer terminado"
+
+63a8b88 "todo linkeado"
