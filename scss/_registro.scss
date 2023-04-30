@@ -1,0 +1,44 @@
+.container {
+  margin-top: 50px;
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #a52929;
+  background-color: rgb(108, 108, 108);
+
+  .FormRegistro {
+    margin-bottom: 20px;
+
+    .LabelRegistro {
+      color: #a52929;
+      font-weight: bold;
+      margin-bottom: 5px;
+      margin-top: 10px;
+    }
+
+    input {
+      border-color: #a52929;
+    }
+
+    .BotonIniRegistro {
+      background-color: #a52929;
+      border-color: #a52929;
+      margin-top: 20px;
+
+      &:hover {
+        background-color: #333;
+        color: #a52929;
+      }
+    }
+  }
+}
+
+.BotonRegistro {
+  background-color: #a52929;
+  border-color: #a52929;
+}
+
+.BotonRegistro:hover {
+  background-color: #333;
+  color: #a52929;
+}

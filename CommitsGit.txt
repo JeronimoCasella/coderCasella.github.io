@@ -7,3 +7,5 @@
 3706262 "Footer terminado"
 
 63a8b88 "todo linkeado"
+
+100644 "sass implementado"

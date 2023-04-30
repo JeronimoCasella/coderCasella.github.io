@@ -1,0 +1,99 @@
+.contenedormarcas {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 23rem 23rem;
+  padding: 0;
+  margin: 2em;
+
+  @include grande {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 18rem 18rem;
+    padding: 0;
+    margin: 2em;
+  }
+
+  @include mediano {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 17rem 17rem 17rem;
+    padding: 0;
+    margin: 2em;
+  }
+
+  @include pequeño {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 15rem 15rem 15rem;
+    padding: 0;
+    margin: 2em;
+  }
+
+  @include minimo {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 19rem;
+    padding: 0;
+    margin: 2em;
+  }
+
+  @include microscopico {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 13rem;
+    padding: 0;
+    margin: 2em;
+  }
+
+  .cajamarcas {
+    background-color: #333;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    flex-basis: calc(25% - 1rem);
+    flex-grow: 1;
+    margin: 0;
+    padding: 0.5rem;
+
+    .imagen_marcas {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+
+      img {
+        width: 100%;
+        height: auto;
+        margin-top: 1.2rem;
+        margin-bottom: rem;
+        padding: 0, 2rem;
+      }
+    }
+
+    .caption_marcas {
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 60px;
+      font-size: 25px;
+      margin-top: 5px;
+      background-color: rgba(0, 0, 0, 0.7);
+      background-size: 200px;
+      color: white;
+      padding: 10px;
+      box-sizing: border-box;
+      width: 100%;
+    }
+  }
+}
+
+figcaption {
+  text-align: center;
+  a {
+    text-decoration: none;
+    color: white;
+    width: 100%;
+  }
+}

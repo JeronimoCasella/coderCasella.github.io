@@ -1,0 +1,36 @@
+footer {
+  background-color: #333;
+  position: absolute;
+  color: #fff;
+  bottom: 0px;
+  width: 100%;
+  margin-top: 20px;
+
+  .footer-container {
+    max-width: 1700px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2em;
+
+    .left-content {
+      font-size: 14px;
+    }
+
+    .social-icons {
+      display: flex;
+
+      img {
+        width: 30px;
+        height: 30px;
+        margin-left: 20px;
+        border-radius: 50%;
+      }
+
+      a:first-child img {
+        margin-left: 0;
+      }
+    }
+  }
+}
