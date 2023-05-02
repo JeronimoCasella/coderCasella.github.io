@@ -27,3 +27,15 @@
     @content;
   }
 }
+
+@mixin indexgrande {
+  @media screen and (max-width: 1360px) {
+    @content;
+  }
+}
+
+@mixin indexminimo {
+  @media screen and (max-width: 575px) {
+    @content;
+  }
+}

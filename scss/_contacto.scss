@@ -3,19 +3,19 @@
   background-color: #fff;
   padding: 50px;
   border-radius: 10px;
-  box-shadow: 0px 0px 10px #a52929;
-  background-color: rgb(108, 108, 108);
+  box-shadow: 0px 0px 10px $secondarycolor;
+  background-color: $details;
 
   .LabelContacto {
-    color: #a52929;
+    color: $secondarycolor;
     margin-bottom: 5px;
     margin-top: 5px;
     font-weight: bold;
   }
 
   .botonContacto {
-    background-color: #a52929;
-    border-color: #a52929;
+    background-color: $secondarycolor;
+    border-color: $secondarycolor;
     margin-top: 10px;
 
     &:hover {
@@ -27,8 +27,8 @@
 
 //newsletter
 .newsletter {
-  background-color: #333;
-  color: #a52929;
+  background-color: $maincolor;
+  color: $secondarycolor;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -53,14 +53,14 @@
 }
 
 .newsletter-label {
-  color: #a52929;
+  color: $secondarycolor;
   font-size: 1rem;
   font-weight: bold;
   margin-right: 1rem;
 }
 
 .boton-newsletter {
-  color: #a52929;
+  color: $secondarycolor;
   font-size: 1rem;
   font-weight: bold;
 }
@@ -77,7 +77,7 @@
   padding: 0.5rem 1rem;
   border: none;
   border-radius: 4px;
-  background-color: #a52929;
+  background-color: $secondarycolor;
   color: #fff;
   cursor: pointer;
 }

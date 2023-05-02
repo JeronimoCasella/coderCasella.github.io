@@ -1,5 +1,5 @@
 header {
-  background-color: #333; /* color de gris oscuro */
+  background-color: $maincolor; /* color de gris oscuro */
   color: white; /* color de texto blanco */
   display: flex;
   align-items: center;
@@ -24,7 +24,7 @@ header {
 }
 
 nav {
-  background-color: #333;
+  background-color: $maincolor;
 
   ul {
     list-style-type: none;
