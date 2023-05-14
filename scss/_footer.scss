@@ -6,6 +6,10 @@ footer {
   width: 100%;
   margin-top: 20px;
 
+  @include indexmicroscopico {
+    font-size: 5px;
+  }
+
   .footer-container {
     max-width: 1700px;
     margin: auto;

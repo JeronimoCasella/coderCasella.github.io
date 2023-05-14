@@ -27,7 +27,7 @@
     grid-template-rows: 39% 7% 10% 44%;
   }
 }
-// texto 1
+
 .box1 {
   margin-top: 30px;
   @include grande {
@@ -35,8 +35,14 @@
     grid-row: 3;
     margin-top: 5px;
   }
+  @include grande {
+    grid-column: 1;
+    grid-row: 3;
+    margin-top: 5px;
+    font-size: 12px;
+  }
 }
-// lexus
+
 .box2 {
   margin-top: 30px;
   grid-column: 2;
@@ -58,7 +64,7 @@
     height: 100%;
   }
 }
-//4 img
+
 .box3 {
   grid-column: 1;
   grid-row: 2/58;
@@ -79,14 +85,18 @@
     grid-row: 4;
   }
 
-  @include mediano {
+  @include indexmicroscopico {
+    grid-column: 1;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-row: 4;
   }
 }
 
 .box3 img {
   width: 100%;
 }
-// texto 2
+
 .box4 {
   grid-column: 2;
 
@@ -112,7 +122,7 @@
   margin-top: 1em;
   padding: 1.27em;
   width: 320px;
-  height: 260px; /* altura fija */
+  height: 260px;
   position: relative;
   border: 5px solid $secondarycolor;
   box-sizing: border-box;
@@ -126,6 +136,11 @@
   @include indexminimo {
     width: 240px;
     height: 200px;
+  }
+
+  @include indexmicroscopico {
+    width: 180px;
+    height: 180px;
   }
 }
 
@@ -155,4 +170,10 @@
 #link_lexus {
   text-decoration: none;
   color: #7a2020;
+
+  @include mediano {
+    grid-column: 1;
+    grid-row: 1;
+    font-size: 9px;
+  }
 }
